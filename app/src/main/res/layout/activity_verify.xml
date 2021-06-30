@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyActivity">
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Verificar +1 (809) 222-919"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/primaryColor"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/informationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:text="El SMS con el codigo de verificación fue enviado al +1 (809) 222-9179. ¿Número equivocado?"
+        app:layout_constraintTop_toBottomOf="@id/phoneTextView" />
+
+    <EditText
+        android:id="@+id/verificationCodeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primaryColorVariant"
+        android:ems="10"
+        android:hint="Codigo Aquí"
+        android:inputType="textPersonName"
+        android:maxLength="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/informationTextView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresa el codigo de 6 dígitos"
+        android:textSize="17sp"
+        app:layout_constraintTop_toBottomOf="@id/verificationCodeEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

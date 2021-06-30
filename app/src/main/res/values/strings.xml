@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WhatsApp Clone</string>
+    <string name="welcome_activity_title">Te damos la bienvenida a WhatsApp Clone</string>
+    <string name="read_policies">Lee nuestra Política de privacidad. Toca "Aceptar y continuar" para aceptar las Condiciones del servicio.</string>
+    <string name="accept_and_continue">Aceptar y Continuar</string>
+    <string name="enter_number">Ingresa tu número de teléfono</string>
+    <string name="information_message_auth">Whatsapp te enviará un mensaje SMS para verificar tu número de telefono. ¿Cuál es mi número?</string>
+    <string name="phone_number">Número de tel.</string>
+    <string name="information_message_auth_v2">Puede que tu operador te cobre por el SMS</string>
+    <string name="next_auth_button">Sig.</string>
+</resources>

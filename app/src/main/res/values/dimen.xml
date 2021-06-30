@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Text Size  -->
+    <dimen name="title1">22sp</dimen>
+    <dimen name="button_text_size">17sp</dimen>
+
+    <!--  Margin Size  -->
+    <dimen name="margin_welcome_activity">40dp</dimen>
+
+
+</resources>
